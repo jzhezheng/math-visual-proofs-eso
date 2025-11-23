@@ -7,7 +7,7 @@ Aquest document descriu breument el contingut i l'objectiu pedagògic de cadascu
 
 ---
 
-## 1️⃣ Identitats notables - tres casos *(🚧 En desenvolupament)*
+## 1️⃣ Identitats notables - tres casos
 
 ### 1.1 Quadrat d'una suma
 
@@ -54,9 +54,24 @@ Mostrar de manera intuïtiva la fórmula de la diferència de quadrats.
 
 ---
 
-## 2️⃣ Àrea del triangle - tres casos *(🚧 En desenvolupament)*
+## 2️⃣ Àrea del triangle - tres casos
 
-### 2.1 Triangle amb altura interior
+### 2.1 Triangle a partir de la divisió d'un rectangle
+
+**Fitxer**: `src/triangle_area.py` (classe: `TriangleAreaRectangle`)
+
+**Fórmula visualitzada**:
+$\text{Àrea} = \frac{\text{base} \times \text{altura}}{2}$
+
+**Què mostra**:
+Derivació visual que mostra com qualsevol triangle es pot entendre com la meitat d'un rectangle o paral·lelogram amb la mateixa base i altura.
+
+**Objectiu pedagògic**:
+Proporcionar la prova geomètrica més intuïtiva que l'àrea d'un triangle és sempre la meitat de la d'un rectangle amb les mateixes mesures de base i altura.
+
+---
+
+### 2.2 Triangle amb altura interior
 
 **Fitxer**: `src/triangle_area.py` (classe: `TriangleAreaInteriorAltitude`)
 
@@ -71,7 +86,7 @@ Mostrar geomètricament per què la fórmula de l'àrea funciona per a triangles
 
 ---
 
-### 2.2 Triangle amb altura exterior
+### 2.3 Triangle amb altura exterior
 
 **Fitxer**: `src/triangle_area.py` (classe: `TriangleAreaExteriorAltitude`)
 
@@ -83,21 +98,6 @@ Animació que demostra com la fórmula de l'àrea segueix sent vàlida fins i to
 
 **Objectiu pedagògic**:
 Il·lustrar que la fórmula de l'àrea es generalitza per a triangles obtusangles on l'altura cau fora del segment de la base.
-
----
-
-### 2.3 Triangle a partir de la divisió d'un rectangle
-
-**Fitxer**: `src/triangle_area.py` (classe: `TriangleAreaRectangle`)
-
-**Fórmula visualitzada**:
-$\text{Àrea} = \frac{\text{base} \times \text{altura}}{2}$
-
-**Què mostra**:
-Derivació visual que mostra com qualsevol triangle es pot entendre com la meitat d'un rectangle o paral·lelogram amb la mateixa base i altura.
-
-**Objectiu pedagògic**:
-Proporcionar la prova geomètrica més intuïtiva que l'àrea d'un triangle és sempre la meitat de la d'un rectangle amb les mateixes mesures de base i altura.
 
 ---
 

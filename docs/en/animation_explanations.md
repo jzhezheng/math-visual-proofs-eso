@@ -7,7 +7,7 @@ This document briefly describes the content and pedagogical objective of each an
 
 ---
 
-## 1️⃣ Algebraic Identities - Three Cases *(🚧 In development)*
+## 1️⃣ Algebraic Identities - Three Cases
 
 ### 1.1 Square of a Sum
 
@@ -54,9 +54,24 @@ Intuitively show the formula for the difference of squares.
 
 ---
 
-## 2️⃣ Area of a Triangle - Three Cases *(🚧 In development)*
+## 2️⃣ Area of a Triangle - Three Cases
 
-### 2.1 Triangle with Interior Height
+### 2.1 Triangle from Rectangle Division
+
+**File**: `src/triangle_area.py` (class: `TriangleAreaRectangle`)
+
+**Visualized formula**:
+$\text{Area} = \frac{\text{base} \times \text{height}}{2}$
+
+**What it shows**:
+Visual derivation showing how any triangle can be seen as half of a rectangle or parallelogram with the same base and height.
+
+**Pedagogical objective**:
+Provide the most intuitive geometric proof that a triangle's area is always half that of a rectangle with identical base and height measurements.
+
+---
+
+### 2.2 Triangle with Interior Height
 
 **File**: `src/triangle_area.py` (class: `TriangleAreaInteriorAltitude`)
 
@@ -71,7 +86,7 @@ Show geometrically why the area formula works for acute triangles where the alti
 
 ---
 
-### 2.2 Triangle with Exterior Height
+### 2.3 Triangle with Exterior Height
 
 **File**: `src/triangle_area.py` (class: `TriangleAreaExteriorAltitude`)
 
@@ -83,21 +98,6 @@ Animation demonstrating how the area formula remains valid even when the altitud
 
 **Pedagogical objective**:
 Illustrate that the area formula generalizes to obtuse triangles where the altitude lands outside the base segment.
-
----
-
-### 2.3 Triangle from Rectangle Division
-
-**File**: `src/triangle_area.py` (class: `TriangleAreaRectangle`)
-
-**Visualized formula**:
-$\text{Area} = \frac{\text{base} \times \text{height}}{2}$
-
-**What it shows**:
-Visual derivation showing how any triangle can be seen as half of a rectangle or parallelogram with the same base and height.
-
-**Pedagogical objective**:
-Provide the most intuitive geometric proof that a triangle's area is always half that of a rectangle with identical base and height measurements.
 
 ---
 
