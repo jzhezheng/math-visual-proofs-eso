@@ -224,7 +224,7 @@ class QuadraticFormula(Scene):
         # Connect back to original coefficients and present final formula
         coefficient_relation = MathTex(
             r"p = \tfrac{b}{a},\ \ q=\tfrac{c}{a}"
-        ).scale(0.75).shift(UP * 2)
+        ).scale(0.75).shift(UP * 1.2)
 
         quadratic_formula = MathTex(
             r"x = \frac{-b \pm \sqrt{b^2 - 4 a c}}{2 a}"
