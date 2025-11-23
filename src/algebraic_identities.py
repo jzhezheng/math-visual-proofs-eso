@@ -335,8 +335,8 @@ class SumDifferenceProduct(Scene):
     def construct(self):
         # ========== PARAMETERS AND COLOR SCHEME ==========
         RECTANGLE_STROKE_COLOR = WHITE
-        COLOR_B_RECTANGLE = RED
-        COLOR_B_SQUARE = BLUE
+        COLOR_B_RECTANGLE = "#7fffd4"
+        COLOR_B_SQUARE = "#4169e1"
 
         # ========== TITLE AND INTRODUCTION ==========
         title = MathTex(r"\text{Difference of Squares: } (a+b)(a-b)").to_edge(UP)
@@ -448,7 +448,7 @@ class SumDifferenceProduct(Scene):
         self.play(FadeOut(final_figure))
 
         # Final algebraic derivation
-        self.play(formula_area1.animate.move_to(ORIGIN).move_to(UP * 2))
+        self.play(formula_area1.animate.move_to(ORIGIN).move_to(UP * 1.5))
         self.play(formula_area2.animate.next_to(formula_area1, DOWN))
 
         formula_area_equivalence.next_to(formula_area2, DOWN)
