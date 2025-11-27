@@ -1,4 +1,4 @@
-# Visual Proofs in Secondary Mathematics / Demostracions Visuals per a les Matemàtiques de Secundària
+# Visual Proofs for Secondary Mathematics / Demostracions Visuals per a les Matemàtiques de Secundària
 
 🌐 **Languages:** [English](#english) | [Català](#català)
 
@@ -32,20 +32,20 @@ This project demonstrates, through **animations created with ManimCE**, how to c
 
 2. **Clone the repository**
 
-    ```bash
-    git clone https://github.com/jzhezheng/math-visual-proofs-eso
-    ```
+   ```bash
+   git clone https://github.com/jzhezheng/math-visual-proofs-eso
+   ```
 
 3. **Install dependencies**
 
-    ```bash
-    pip install -r requirements.txt
-    ```
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 4. **Run an animation**
-    ```bash
-    manim -p -qh src/algebraic_identities.py
-    ```
+   ```bash
+   manim -p -qh src/algebraic_identities.py
+   ```
 
 📖 _Detailed instructions: [Installation Guide](docs/en/installation_guide.md)_
 
@@ -53,7 +53,24 @@ This project demonstrates, through **animations created with ManimCE**, how to c
 
 - 🏠 **Project Home**: [GitHub Repository](https://github.com/jzhezheng/math-visual-proofs-eso)
 - 📁 **Source Code**: [`src/` directory](https://github.com/jzhezheng/math-visual-proofs-eso/tree/main/src)
-- 🎥 **Animation Website**: [View Online Demos](#) *(🚧 In development)*
+- 🎥 **Animation Website**: [View Online Demos](https://jzhezheng.github.io/math-visual-proofs-eso-web)
+
+---
+
+## 📚 Documentation
+
+All documentation is available in both English and Catalan:
+
+|     Document Type      |                        English Version                         |                       Catalan Version                        |
+| :--------------------: | :------------------------------------------------------------: | :----------------------------------------------------------: |
+| Animation Explanations | [animation_explanations.md](docs/en/animation_explanations.md) | [explicacio_animacions.md](docs/ca/explicacio_animacions.md) |
+|   Installation Guide   |     [installation_guide.md](docs/en/installation_guide.md)     |         [guia_execucio.md](docs/ca/guia_execucio.md)         |
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
 
@@ -81,20 +98,20 @@ L'objectiu és mostrar, mitjançant **animacions creades amb ManimCE**, com es p
 
 2. **Clonar el repositori**
 
-    ```bash
-    git clone https://github.com/jzhezheng/math-visual-proofs-eso
-    ```
+   ```bash
+   git clone https://github.com/jzhezheng/math-visual-proofs-eso
+   ```
 
 3. **Instal·la les dependències**
 
-    ```bash
-    pip install -r requirements.txt
-    ```
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 4. **Executa una animació**
-    ```bash
-    manim -p -qh src/algebraic_identities.py
-    ```
+   ```bash
+   manim -p -qh src/algebraic_identities.py
+   ```
 
 📖 _Instruccions detallades: [Guia d'instal·lació](docs/ca/guia_execucio.md)_
 
@@ -102,24 +119,24 @@ L'objectiu és mostrar, mitjançant **animacions creades amb ManimCE**, com es p
 
 - 🏠 **Inici del Projecte**: [Repositori GitHub](https://github.com/jzhezheng/math-visual-proofs-eso)
 - 📁 **Codi Font**: [Directori `src/`](https://github.com/jzhezheng/math-visual-proofs-eso/tree/main/src)
-- 🎥 **Lloc Web d'Animacions**: [Veure Demostracions en Línia](#) *(🚧 En desenvolupament)*
+- 🎥 **Lloc Web d'Animacions**: [Veure Demostracions en Línia](https://jzhezheng.github.io/math-visual-proofs-eso-web)
 
 ---
 
-## 📚 Documentation
+## 📚 Documentació
 
-All documentation is available in both English and Catalan:
+Tota la documentació està disponible en anglès i català:
 
-|     Document Type      |                        English Version                         |                       Catalan Version                        |
+|     Tipus de document      |                        Versió anglesa                         |                       Versió catalana                        |
 | :--------------------: | :------------------------------------------------------------: | :----------------------------------------------------------: |
-| Animation Explanations | [animation_explanations.md](docs/en/animation_explanations.md) | [explicacio_animacions.md](docs/ca/explicacio_animacions.md) |
-|   Installation Guide   |     [installation_guide.md](docs/en/installation_guide.md)     |         [guia_execucio.md](docs/ca/guia_execucio.md)         |
+| Explicacions d'animació | [animation_explanations.md](docs/en/animation_explanations.md) | [explicacio_animacions.md](docs/ca/explicacio_animacions.md) |
+|   Guia d'instal·lació   |     [installation_guide.md](docs/en/installation_guide.md)     |         [guia_execucio.md](docs/ca/guia_execucio.md)         |
 
 ---
 
-## 📄 License
+## 📄 Llicència
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+Aquest projecte està sota la llicència MIT. Vegeu el fitxer [LICENSE](LICENSE) per obtenir més informació.
 
 ---
 

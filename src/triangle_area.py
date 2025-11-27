@@ -289,6 +289,6 @@ class TriangleAreaExteriorAltitude(Scene):
         # Conclusion statement
         conclusion_text = Tex(
             "The area formula remains valid when the altitude falls outside the triangle."
-        ).next_to(final_formula, DOWN * 1.5).shift(LEFT * 1.5).set_color(GREEN)
+        ).next_to(final_formula, DOWN * 1.5).shift(LEFT * 1.5).set_color(GREEN).scale(0.75)
         self.play(Write(conclusion_text))
         self.wait(3)
