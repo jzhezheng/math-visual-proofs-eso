@@ -68,7 +68,7 @@ All documentation is available in both English and Catalan:
 
 ---
 
-## Acknowledgments
+## ✨ Acknowledgments
 
 ### Project Team
 
@@ -149,7 +149,7 @@ Tota la documentació està disponible en anglès i català:
 
 ---
 
-## Agraïments
+## ✨ Agraïments
 
 ### Equip de projecte
 
