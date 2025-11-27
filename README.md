@@ -68,6 +68,21 @@ All documentation is available in both English and Catalan:
 
 ---
 
+## Acknowledgments
+
+### Project Team
+
+- **Zhezheng Jiang** - Project Lead & Designer
+- **Zhehui Wang** - Animation Developer
+
+### Supervision
+
+- **Raquel** and **Marta** - Research Project Supervisors
+
+📋 Complete contribution details and special acknowledgments are documented in our [CREDITS](CREDITS.md) file.
+
+---
+
 ## 📄 License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
@@ -127,10 +142,25 @@ L'objectiu és mostrar, mitjançant **animacions creades amb ManimCE**, com es p
 
 Tota la documentació està disponible en anglès i català:
 
-|     Tipus de document      |                        Versió anglesa                         |                       Versió catalana                        |
-| :--------------------: | :------------------------------------------------------------: | :----------------------------------------------------------: |
+|    Tipus de document    |                         Versió anglesa                         |                       Versió catalana                        |
+| :---------------------: | :------------------------------------------------------------: | :----------------------------------------------------------: |
 | Explicacions d'animació | [animation_explanations.md](docs/en/animation_explanations.md) | [explicacio_animacions.md](docs/ca/explicacio_animacions.md) |
 |   Guia d'instal·lació   |     [installation_guide.md](docs/en/installation_guide.md)     |         [guia_execucio.md](docs/ca/guia_execucio.md)         |
+
+---
+
+## Agraïments
+
+### Equip de projecte
+
+- **Zhezheng Jiang** - Cap de projecte i dissenyador
+- **Zhehui Wang** - Desenvolupador d'animació
+
+### Supervisió
+
+- **Raquel** i **Marta** - Supervisores de projectes de recerca
+
+📋 Els detalls complets de les contribucions i els agraïments especials es documenten al nostre fitxer [CREDITS](CREDITS.md).
 
 ---
 

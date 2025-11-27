@@ -10,7 +10,7 @@
 
 ## 🛠️ Project Team
 
-### [**Zhezheng Jiang**](https://github.com/Jzhezheng2508) — Project Lead & Designer
+### [**Zhezheng Jiang**](https://github.com/jzhezheng) — Project Lead & Designer
 
 - **Conceived and architected** all mathematical animations and visual proofs
 - **Directed** animation concepts, pedagogical methodologies, and visual narratives
@@ -50,7 +50,7 @@
 
 ## 🛠️ Equip del Projecte
 
-### [**Zhezheng Jiang**](https://github.com/Jzhezheng2508) — Líder del Projecte i Dissenyador
+### [**Zhezheng Jiang**](https://github.com/jzhezheng) — Líder del Projecte i Dissenyador
 
 - **Va concebre i dissenyar** totes les animacions matemàtiques i demostracions visuals
 - **Va dirigir** els conceptes d'animació, metodologies pedagògiques i narratives visuals
