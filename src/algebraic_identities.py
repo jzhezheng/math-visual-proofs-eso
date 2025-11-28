@@ -139,8 +139,8 @@ class SumSquare(Scene):
 
         # Position final formula elements
         formula_equals.move_to(ORIGIN).shift(UP * 0.3, RIGHT * 2.5)
-        formula_left_side.next_to(formula_equals, UP)
-        formula_right_side.next_to(formula_equals, DOWN)
+        formula_left_side.next_to(formula_equals, LEFT)
+        formula_right_side.next_to(formula_equals, RIGHT)
 
         # Animate formula derivation
         self.play(Write(formula_area_definition))
@@ -316,13 +316,11 @@ class DifferenceSquare(Scene):
         )
         self.play(ReplacementTransform(terms_to_transform, final_formula))
 
-        # Highlight the final formula
+        # Show final formula
         final_equation_group = VGroup(equation_components[0], final_formula)
         self.play(FadeOut(final_equation_group))
         final_equation_group.shift(DOWN * 1)
         self.play(FadeIn(final_equation_group))
-        highlight_box = SurroundingRectangle(final_equation_group, color=YELLOW)
-        self.play(Create(highlight_box))
         self.wait(3)
 
 
